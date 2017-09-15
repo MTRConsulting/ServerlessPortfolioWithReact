@@ -4,8 +4,8 @@ This is my professional portfolio utilizing AWS and ReactJS.
 
 ## Technologies Used
 
-Powershell
-Chocolatey
-PIP
+Powershell |
+-Chocolatey
+..PIP
 Git and GitLab
 SSH
