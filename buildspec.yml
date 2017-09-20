@@ -4,8 +4,8 @@ phases:
   install:
     commands:
       - echo Nothing to do
-  pre_build:
-          - echo Nothing to do
+#  pre_build:
+#      - echo Nothing to do
   build:
     commands:
       - echo Build started on `date`
