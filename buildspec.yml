@@ -1,18 +1,33 @@
 version: 0.1
 
 phases:
+  install:
+    commands:
+      - echo Nothing to do
+  pre_build:
+          - echo Nothing to do
   build:
+    commands:
+      - echo Build started on `date`
+  post_build:
     commands:
       - echo Nothing to do yet
 artifacts:
   files:
-    - source: code/index.html
-      destination: /index.html
-    - source: code/favicon.ico
-      destination: /favicon.ico
-    - source: code/2017MichaelRyanConsultantAWS.pdf
-      destination: /2017MichaelRyanConsultantAWS.pdf
-    - source: styles/*
-      destination: styles/*
-    - source: images/*
-      destination: images/*
+    # The files in the code directory need to be placed in the base install directory
+    - code/index.html
+    - code/favicon.ico
+    - code/2017MichaelRyanConsultantAWS.pdf
+    - styles/*
+    - images/*
+
+#    - source: code/index.html
+#      destination: /index.html
+#    - source: code/favicon.ico
+#      destination: /favicon.ico
+#    - source: code/2017MichaelRyanConsultantAWS.pdf
+#      destination: /2017MichaelRyanConsultantAWS.pdf
+#    - source: styles/*
+#      destination: styles/*
+#    - source: images/*
+#      destination: images/*
