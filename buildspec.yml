@@ -3,15 +3,15 @@ version: 0.1
 phases:
   install:
     commands:
-      - echo Nothing to do
+      - echo Build started on `date`
 #  pre_build:
 #      - echo Nothing to do
   build:
     commands:
-      - echo Build started on `date`
+      - echo Build commands go here
   post_build:
     commands:
-      - echo Nothing to do yet
+      - echo Post Build commands go here
 artifacts:
   files:
     # The files in the code directory need to be placed in the base install directory
