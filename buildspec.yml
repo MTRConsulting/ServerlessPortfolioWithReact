@@ -11,13 +11,13 @@ phases:
       - echo $CODEBUILD_SRC_DIR
   post_build:
     commands:
-      - echo Post Build commands go here
+      - echo Build completed on `date`
 artifacts:
   files:
     # The files in the code directory need to be placed in the base install directory
-    - code/index.html
-    - code/favicon.ico
-    - code/2017MichaelRyanConsultantAWS.pdf
-    - code/styles/main.css
-    - code/images/*
+    - index.html
+    - favicon.ico
+    - 2017MichaelRyanConsultantAWS.pdf
+    - styles/main.css
+    - images/*
   base-directory: 'code'
