@@ -18,7 +18,7 @@ artifacts:
     - code/index.html
     - code/favicon.ico
     - code/2017MichaelRyanConsultantAWS.pdf
-    - styles/*
+    - styles/main.css
     - images/*
 
 #    - source: code/index.html
