@@ -8,7 +8,7 @@ phases:
 #      - echo Nothing to do
   build:
     commands:
-      - echo Build commands go here
+      - echo $CODEBUILD_SRC_DIR
   post_build:
     commands:
       - echo Post Build commands go here
@@ -18,16 +18,6 @@ artifacts:
     - code/index.html
     - code/favicon.ico
     - code/2017MichaelRyanConsultantAWS.pdf
-    - styles/main.css
-    - images/*
-
-#    - source: code/index.html
-#      destination: /index.html
-#    - source: code/favicon.ico
-#      destination: /favicon.ico
-#    - source: code/2017MichaelRyanConsultantAWS.pdf
-#      destination: /2017MichaelRyanConsultantAWS.pdf
-#    - source: styles/*
-#      destination: styles/*
-#    - source: images/*
-#      destination: images/*
+    - code/styles/main.css
+    - code/images/*
+    base-directory: 'code'
