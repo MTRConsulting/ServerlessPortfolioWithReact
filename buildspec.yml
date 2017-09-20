@@ -20,4 +20,4 @@ artifacts:
     - code/2017MichaelRyanConsultantAWS.pdf
     - code/styles/main.css
     - code/images/*
-    base-directory: 'code'
+  base-directory: 'code'
