@@ -9,3 +9,5 @@ This is my professional portfolio utilizing AWS and ReactJS.
   * **PIP**
   * **Git** and **GitLab**
   * **SSH**
+  * **Python** and **Boto3**
+  * **AWS Lambda**
