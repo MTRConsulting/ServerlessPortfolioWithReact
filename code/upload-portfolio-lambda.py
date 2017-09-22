@@ -39,4 +39,4 @@ def lambda_handler(event, context):
     else:
         print ("No Zip file found!")
     print ("Job Complete at: {}" .format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")) )
-    return 'Hello From Lambda'
+    return 'Deploy finished - Lambda'
