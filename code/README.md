@@ -11,3 +11,7 @@ This is my professional portfolio utilizing AWS and ReactJS.
   * **SSH**
   * **Python** and **Boto3**
   * **AWS Lambda**
+  * **AWS IAM**
+  * **AWS CodeBuild**
+  * **AWS CloudWatch**
+  * 
