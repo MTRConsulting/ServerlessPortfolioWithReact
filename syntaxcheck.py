@@ -30,5 +30,5 @@ def lambda_handler(event, context):
         portfolio_bucket.upload_fileobj(obj, nm, ExtraArgs={'ContentType': mimetypes.guess_type(nm)[0]})
         portfolio_bucket.Object(nm).Acl().put(ACL='public-read')
         print("Uploading file: {}" .format(nm))
-    print ("Job Complete at: {}" .format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")) )
+    print ("Job Complete at: {}" .format(datetime.now().strftime("%Y-%m-%d %H:%M:%S") )
     return 'Hello From Lambda'
