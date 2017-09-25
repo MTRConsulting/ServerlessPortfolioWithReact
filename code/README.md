@@ -14,4 +14,5 @@ This is my professional portfolio utilizing AWS and ReactJS.
   * **AWS IAM**
   * **AWS CodeBuild**
   * **AWS CloudWatch**
-  * 
+  * **AWS SNS**
+  *
