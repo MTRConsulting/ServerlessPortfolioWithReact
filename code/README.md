@@ -6,10 +6,11 @@ This is my professional portfolio utilizing AWS and ReactJS.
 
   * **PowerShell**
   * **Chocolatey**
-  * **PIP**
+  * **NPM**
+  * **Atom** and **apm**
   * **Git** and **GitLab**
   * **SSH**
-  * **Python** and **Boto3**
+  * **Python** **pip** and **Boto3**
   * **Ubuntu 16.04.2 LTS** and **BASH**
   * **AWS Lambda**
   * **AWS IAM**
