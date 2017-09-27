@@ -59,3 +59,6 @@ typings/
 
 # atom change file
 *.pyc
+
+# Distribution directory
+dist
