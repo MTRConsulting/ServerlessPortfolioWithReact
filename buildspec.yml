@@ -9,6 +9,8 @@ phases:
   build:
     commands:
       - echo $CODEBUILD_SRC_DIR
+      - npm install
+      - npm run webpack
   post_build:
     commands:
       - echo Build completed on `date`
@@ -20,4 +22,5 @@ artifacts:
     - 2017MichaelRyanConsultantAWS.pdf
     - styles/main.css
     - images/*
+    - dist/bundle.js
   base-directory: 'code'
