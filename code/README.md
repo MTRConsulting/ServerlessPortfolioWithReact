@@ -1,6 +1,6 @@
 # Michael Ryan's portfolio
 
-This is my professional portfolio utilizing AWS and ReactJS.
+This is my professional portfolio utilizing AWS and React.
 
 ## Technologies Used
 
@@ -18,3 +18,6 @@ This is my professional portfolio utilizing AWS and ReactJS.
   * **AWS CloudWatch**
   * **AWS SNS**
   * **AWS CodePipeline**
+  * **Babel**
+  * **React**
+  * **Chai Assertion Library**
