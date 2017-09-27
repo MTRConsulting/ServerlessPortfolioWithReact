@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   entry: './js/main.js',
@@ -10,7 +10,7 @@ module.exports = {
     rules: [{
       test: /\.js$/,
       exclude: /node_modules/,
-      use:{
+      use: {
         loader: 'babel-loader',
         options: {
           presets: ['react']
