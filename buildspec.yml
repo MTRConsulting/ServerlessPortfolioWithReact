@@ -3,7 +3,7 @@ version: 0.1
 phases:
   install:
     commands:
-      - echo Build started on `date`
+      - echo Install started on `date`
 #  pre_build:
 #      - echo Nothing to do
   build:
