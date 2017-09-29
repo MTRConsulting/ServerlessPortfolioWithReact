@@ -19,6 +19,6 @@ This is my professional portfolio utilizing AWS and React.
   * **AWS SNS**
   * **AWS CodePipeline**
   * **Babel**
-  * **React** and **mocha**
+  * **React** **JSX** and **mocha**
   * **Chai Assertion Library**
   * **Webpack**
