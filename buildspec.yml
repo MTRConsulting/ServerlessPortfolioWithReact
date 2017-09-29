@@ -4,12 +4,12 @@ phases:
   install:
     commands:
       - echo Install started on `date`
-#  pre_build:
-#      - echo Nothing to do
+  pre_build:
+      - cd code && npm install
+      - cd code && npm test
   build:
     commands:
       - echo $CODEBUILD_SRC_DIR
-      - cd code && npm install
       - cd code && npm run webpack --display-error-details
   post_build:
     commands:

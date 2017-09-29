@@ -22,3 +22,4 @@ This is my professional portfolio utilizing AWS and React.
   * **React** **JSX** and **mocha**
   * **Chai Assertion Library**
   * **Webpack**
+  * **React testing with** **Jest** and **Enzyme**
