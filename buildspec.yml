@@ -5,6 +5,7 @@ phases:
     commands:
       - echo Install started on `date`
   pre_build:
+    commands:
       - cd code && npm install
       - cd code && npm test
   build:
