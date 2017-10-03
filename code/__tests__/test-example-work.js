@@ -1,3 +1,7 @@
+// TODO: Remove this `raf` polyfill once the below issue is sorted
+// https://github.com/facebookincubator/create-react-app/issues/3199#issuecomment-332842582
+import raf from '../tempPolyfills'
+
 import React from 'react'
 import Enzyme from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
@@ -41,14 +45,23 @@ describe("ExampleWork component", () => {
 
 describe("ExampleWorkBubble component", () => {
   let component = shallow(<ExampleWorkBubble example={myWork[1]} />)
-
   let images = component.find("img")
+
+  console.log(component.debug())
+  console.log(images.debug())
+
+  it("Should contain the name 'img'", () => {
+    expect(images.name()).toEqual('img')
+  })
 
   it("Should contain a single 'img' element", () => {
     expect(images.length).toEqual(1)
   })
 
-  it("should have the image src set correctly", () => {
-    expect(images.node.props.src).toEqual(myWork[1].image.src)
+  console.log("images.prop('src'):" + images.prop('src'))
+  console.log("myWork[1].image.src:" + myWork[1].image.src)
+  it("Should have the image src set correctly", () => {
+    expect(images.prop('src')).toEqual(myWork[1].image.src)
   })
+
 })
