@@ -76,6 +76,31 @@ h1, h2, h3, h4, h5, h6 {
   overflow: auto;
 }
 
+/*
+  keyframes rule
+*/
+@keyframes example {
+
+}
+
+/*
+ Text
+ transform: scale(1.2);
+ font-size: 18px;
+ text-align: center;
+ */
+
+ .text--scale18 {
+ }
+ .text--scale18:hover {
+   transform: scale(1.8);
+   background-color: yellow;
+ }
+ .text--scale12 {
+ }
+ .text--scale12:hover {
+   transform: scale(1.2);
+ }
 
 /*
   Sections
@@ -148,6 +173,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 250%;
   margin-left: -50%;
   margin-top: -50%;
+}
+
+.section_transition {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
 }
 
 /*
